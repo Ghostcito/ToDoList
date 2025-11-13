@@ -1,4 +1,4 @@
-##**1. Responsabilidades de las Capas**
+## **1. Responsabilidades de las Capas**
 En esta arquitectura, cada capa tiene un rol específico para mantener el código ordenado:
 
 **Capa de Dominio** (domain): Es el núcleo del sistema. Aquí definimos qué es una tarea (Entidad Task) y las reglas de cómo debe guardarse (la interfaz TaskRepository), sin importar la tecnología. Es la capa más pura y no depende de librerías externas.
